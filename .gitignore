@@ -1,0 +1,7 @@
+out/
+*.class
+/.idea/
+/.vscode/
+node_modules/
+*.log
+backend/out/

@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hamro Travels crafts modern luxury journeys across Nepal, Europe, and Asia.">
+  <title>Hamro Travels | Modern Travel Experiences</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="brand">
+      <img src="/images/logo.png" alt="Hamro Travels logo" class="logo">
+      <span>Hamro Travels</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#packages">Packages</a>
+      <a href="#about">About</a>
+      <a href="#booking">Book</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Curated escapes • Premium comfort</p>
+        <h1>Discover the world with effortless luxury.</h1>
+        <p>From the peaks of Nepal to timeless city breaks across Europe and Asia, we design smooth, memorable adventures for every traveler.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-primary">Plan your trip</a>
+          <a href="#packages" class="btn btn-secondary">Explore packages</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <strong>4.9/5</strong>
+            <span>Traveler rating</span>
+          </div>
+          <div>
+            <strong>24/7</strong>
+            <span>Trip support</span>
+          </div>
+          <div>
+            <strong>100+</strong>
+            <span>Destinations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <p class="hero-card-label">Featured escape</p>
+        <h2>Nepal & Beyond</h2>
+        <p>Luxury transport, scenic stays, and local guides arranged for you.</p>
+        <ul>
+          <li>Handpicked boutique stays</li>
+          <li>Flexible itineraries</li>
+          <li>Airport transfers included</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="highlights section">
+      <article>
+        <h3>Local expertise</h3>
+        <p>Trusted guides and hospitality partners in every destination.</p>
+      </article>
+      <article>
+        <h3>Stress-free planning</h3>
+        <p>Every detail is handled before you even leave home.</p>
+      </article>
+      <article>
+        <h3>Flexible trips</h3>
+        <p>Customize your route, pace, and experience with ease.</p>
+      </article>
+    </section>
+
+    <section id="packages" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Popular packages</p>
+        <h2>Travel styles made for modern explorers.</h2>
+      </div>
+      <div id="list" class="package-grid"></div>
+    </section>
+
+    <section id="about" class="about-grid section">
+      <div>
+        <p class="eyebrow">Why choose us</p>
+        <h2>Thoughtful journeys with a warm, personal touch.</h2>
+        <p>We combine local insight with polished service to make every trip feel elevated and easy. Whether you want adventure, culture, or total relaxation, our team builds the perfect experience around your pace.</p>
+      </div>
+      <div class="about-panel">
+        <h3>What’s included</h3>
+        <ul>
+          <li>24/7 concierge assistance</li>
+          <li>Premium accommodations</li>
+          <li>Easy booking and itinerary updates</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="booking" class="section booking-section">
+      <div class="section-heading">
+        <p class="eyebrow">Reserve your journey</p>
+        <h2>Start your next trip in minutes.</h2>
+      </div>
+      <div class="booking-grid">
+        <div class="booking-card">
+          <form id="bookForm" class="booking-form">
+            <label>
+              Name
+              <input name="name" placeholder="Your full name" required>
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              Package
+              <select name="packageId" required id="packageSelect"></select>
+            </label>
+            <button type="submit" class="btn btn-primary">Book now</button>
+          </form>
+          <div id="response" class="response-box" aria-live="polite">Fill out the form to reserve your next escape.</div>
+        </div>
+        <div class="booking-side">
+          <h3>Travel with comfort</h3>
+          <ul>
+            <li>Flexible dates and upgrades</li>
+            <li>Local recommendations included</li>
+            <li>Secure, simple booking process</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Hamro Travels. Crafted for unforgettable adventures.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
